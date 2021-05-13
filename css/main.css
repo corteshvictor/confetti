@@ -1,0 +1,35 @@
+:root {
+  --bg-color-start: #39b439;
+  --bg-color-stop: #e74c3c;
+  --bg-color-remove: #e6e9ed;
+  --bg-color-toggle: #33bdef;
+}
+
+button {
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+#start-button {
+  background-color: var(--bg-color-start);
+}
+
+#stop-button {
+  background-color: var(--bg-color-stop);
+}
+
+#remove-button {
+  background-color: var(--bg-color-remove);
+}
+
+#toggle-button {
+  background-color: var(--bg-color-toggle);
+}
+
+#confetti-canvas {
+  display: block;
+  pointer-events: none;
+}
